@@ -1,8 +1,13 @@
 
-public class SinGlutenAdapter extends Pizza {
+public class SinGlutenAdapter implements Pizza {
 	// We make a instance of the class we wanna to adapt
 	PizzaSinGluten pizzaToAdapt;
 	
+	
+	public SinGlutenAdapter() {
+		pizzaToAdapt = new PizzaSinGluten();
+	}
+
 	@Override
 	public void prepareMasa() {
 		pizzaToAdapt.createEspecialMasa();
@@ -14,7 +19,7 @@ public class SinGlutenAdapter extends Pizza {
 	}
 
 	@Override
-	public void cokePizza() {
+	public void cookPizza() {
 		pizzaToAdapt.cockInAnotherForm();
 	}
 

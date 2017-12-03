@@ -1,5 +1,5 @@
 
-public class PizzaBbq extends Pizza {
+public class PizzaBbq implements Pizza {
 
 	@Override
 	public void prepareMasa() {
@@ -12,7 +12,7 @@ public class PizzaBbq extends Pizza {
 	}
 
 	@Override
-	public void cokePizza() {
+	public void cookPizza() {
 		System.out.println("La meto en el horno, la pizza");
 	}
 

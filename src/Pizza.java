@@ -1,7 +1,7 @@
 
-public abstract class Pizza {
+public interface Pizza {
 	public abstract void prepareMasa();
 	public abstract void addIngredients();
-	public abstract void cokePizza();
+	public abstract void cookPizza();
 	
 }
