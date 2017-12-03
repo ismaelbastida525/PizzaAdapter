@@ -1,5 +1,6 @@
 
 public class Main {
-	int numero;
-
+	public static void main(String[] args) {
+		
+	}
 }
